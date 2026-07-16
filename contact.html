@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="แบบฟอร์มและช่องทางติดต่อ">
+  <title>Contact | Natthaphat Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/gold-glass.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="ไปยังหน้าแรก">
+        <span class="brand-mark">NS</span>
+        <span>Natthaphat Portfolio</span>
+      </a>
+
+      <nav class="main-nav" aria-label="เมนูหลัก">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="cv.html">CV</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="contact.html" class="active" aria-current="page">Contact</a>
+          <a href="skills.html">Skills</a>
+          <a href="education.html">Education</a>
+          <a href="gallery.html">Gallery</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="page-hero">
+      <div class="container narrow">
+        <p class="eyebrow">CONTACT</p>
+        <h1>ส่งข้อความถึงฉัน</h1>
+        <p class="lead">กรอกชื่อ อีเมล และข้อความผ่านแบบฟอร์มด้านล่าง</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-layout">
+        <div class="content-panel">
+          <h2>ช่องทางติดต่อ</h2>
+          <p>อีเมล: <a href="mailto:safem0900@gmail.com">safem0900@gmail.com</a></p>
+          <p>GitHub: <a href="https://github.com/NatthaphatSikhodchakai" target="_blank" rel="noopener">github.com/NatthaphatSikhodchakai</a></p>
+          <p>
+            หมายเหตุ: เว็บไซต์นี้เป็น Static Website
+            แบบฟอร์มจึงใช้สำหรับแสดงโครงสร้างและยังไม่ส่งข้อมูลไปยังฐานข้อมูล
+          </p>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+          <div class="form-group">
+            <label for="name">ชื่อผู้ส่ง</label>
+            <input id="name" name="name" type="text"
+                   placeholder="กรอกชื่อของคุณ" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">อีเมล</label>
+            <input id="email" name="email" type="email"
+                   placeholder="name@example.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">ข้อความ</label>
+            <textarea id="message" name="message" rows="7"
+                      placeholder="พิมพ์ข้อความที่นี่" required></textarea>
+          </div>
+
+          <button class="button primary" type="submit">ส่งข้อความ</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>&copy; 2026 ณัฐภัทร ศรีคชไกร</p>
+      <p>HW8: Personal Homepage · HTML5 + CSS · IIS + Cloud</p>
+    </div>
+  </footer>
+</body>
+</html>
